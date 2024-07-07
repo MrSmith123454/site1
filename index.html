@@ -1,0 +1,1298 @@
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="https://www.lollipop.finance/_next/static/media/659a22e76bc72812-s.p.woff2" as="font"
+    crossorigin="" type="font/woff2">
+  <link rel="preload" href="https://www.lollipop.finance/_next/static/media/a1affea567619055-s.p.woff2" as="font"
+    crossorigin="" type="font/woff2">
+  <link rel="preload" href="https://www.lollipop.finance/_next/static/media/844dc71011366724-s.p.woff2" as="font"
+    crossorigin="" type="font/woff2">
+  <link rel="stylesheet" href="https://www.lollipop.finance/_next/static/css/28e786769c7fa70d.css"
+    data-precedence="next">
+  <link rel="stylesheet" href="https://www.lollipop.finance/_next/static/css/212514f842176a89.css"
+    data-precedence="next">
+  <link rel="preload" as="script" fetchpriority="low"
+    href="https://www.lollipop.finance/_next/static/chunks/webpack-db8d11740bb02b1b.js">
+  <script src="https://www.lollipop.finance/_next/static/chunks/c7bb1776-523895ddb7a4b478.js" async=""></script>
+  <script src="https://www.lollipop.finance/_next/static/chunks/733-e150427656f1a2d2.js" async=""></script>
+  <script src="https://www.lollipop.finance/_next/static/chunks/main-app-37e0447a2ecee265.js" async=""></script>
+  <script src="https://www.lollipop.finance/_next/static/chunks/app/page-2a5d33a0a7b7facc.js" async=""></script>
+  <script src="https://www.lollipop.finance/_next/static/chunks/220-c5944965e87aaede.js" async=""></script>
+  <script src="https://www.lollipop.finance/_next/static/chunks/app/layout-a7cadf3edc7667a9.js" async=""></script>
+  <title>Lolly</title>
+  <meta name="description"
+    content="Simplifying and sweetening your crypto journey! Lollipop is cultivating a community, demystifying DeFi and delivering delight.">
+  <meta property="og:title" content="Lolly">
+  <meta property="og:description"
+    content="Simplifying and sweetening your crypto journey! Lollipop is cultivating a community, demystifying DeFi and delivering delight.">
+  <meta property="og:url" content="https://lollipop.finance">
+  <meta property="og:image" content="https://lollipop.finance/meta_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lolly">
+  <meta name="twitter:description"
+    content="Simplifying and sweetening your crypto journey! Lollipop is cultivating a community, demystifying DeFi and delivering delight.">
+  <meta name="twitter:image" content="https://lollipop.finance/meta_image.png">
+  <link rel="icon" href="https://www.lollipop.finance/favicon.ico" type="image/x-icon" sizes="16x16">
+  <meta name="next-size-adjust">
+  <script src="https://www.lollipop.finance/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" nomodule=""></script>
+  <style type="text/css">
+    :where(html[dir="ltr"]),
+    :where([data-sonner-toaster][dir="ltr"]) {
+      --toast-icon-margin-start: -3px;
+      --toast-icon-margin-end: 4px;
+      --toast-svg-margin-start: -1px;
+      --toast-svg-margin-end: 0px;
+      --toast-button-margin-start: auto;
+      --toast-button-margin-end: 0;
+      --toast-close-button-start: 0;
+      --toast-close-button-end: unset;
+      --toast-close-button-transform: translate(-35%, -35%)
+    }
+
+    :where(html[dir="rtl"]),
+    :where([data-sonner-toaster][dir="rtl"]) {
+      --toast-icon-margin-start: 4px;
+      --toast-icon-margin-end: -3px;
+      --toast-svg-margin-start: 0px;
+      --toast-svg-margin-end: -1px;
+      --toast-button-margin-start: 0;
+      --toast-button-margin-end: auto;
+      --toast-close-button-start: unset;
+      --toast-close-button-end: 0;
+      --toast-close-button-transform: translate(35%, -35%)
+    }
+
+    :where([data-sonner-toaster]) {
+      position: fixed;
+      width: var(--width);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      --gray1: hsl(0, 0%, 99%);
+      --gray2: hsl(0, 0%, 97.3%);
+      --gray3: hsl(0, 0%, 95.1%);
+      --gray4: hsl(0, 0%, 93%);
+      --gray5: hsl(0, 0%, 90.9%);
+      --gray6: hsl(0, 0%, 88.7%);
+      --gray7: hsl(0, 0%, 85.8%);
+      --gray8: hsl(0, 0%, 78%);
+      --gray9: hsl(0, 0%, 56.1%);
+      --gray10: hsl(0, 0%, 52.3%);
+      --gray11: hsl(0, 0%, 43.5%);
+      --gray12: hsl(0, 0%, 9%);
+      --border-radius: 8px;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      outline: none;
+      z-index: 999999999
+    }
+
+    :where([data-sonner-toaster][data-x-position="right"]) {
+      right: max(var(--offset), env(safe-area-inset-right))
+    }
+
+    :where([data-sonner-toaster][data-x-position="left"]) {
+      left: max(var(--offset), env(safe-area-inset-left))
+    }
+
+    :where([data-sonner-toaster][data-x-position="center"]) {
+      left: 50%;
+      transform: translate(-50%)
+    }
+
+    :where([data-sonner-toaster][data-y-position="top"]) {
+      top: max(var(--offset), env(safe-area-inset-top))
+    }
+
+    :where([data-sonner-toaster][data-y-position="bottom"]) {
+      bottom: max(var(--offset), env(safe-area-inset-bottom))
+    }
+
+    :where([data-sonner-toast]) {
+      --y: translateY(100%);
+      --lift-amount: calc(var(--lift) * var(--gap));
+      z-index: var(--z-index);
+      position: absolute;
+      opacity: 0;
+      transform: var(--y);
+      filter: blur(0);
+      touch-action: none;
+      transition: transform .4s, opacity .4s, height .4s, box-shadow .2s;
+      box-sizing: border-box;
+      outline: none;
+      overflow-wrap: anywhere
+    }
+
+    :where([data-sonner-toast][data-styled="true"]) {
+      padding: 16px;
+      background: var(--normal-bg);
+      border: 1px solid var(--normal-border);
+      color: var(--normal-text);
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 12px #0000001a;
+      width: var(--width);
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 6px
+    }
+
+    :where([data-sonner-toast]:focus-visible) {
+      box-shadow: 0 4px 12px #0000001a, 0 0 0 2px #0003
+    }
+
+    :where([data-sonner-toast][data-y-position="top"]) {
+      top: 0;
+      --y: translateY(-100%);
+      --lift: 1;
+      --lift-amount: calc(1 * var(--gap))
+    }
+
+    :where([data-sonner-toast][data-y-position="bottom"]) {
+      bottom: 0;
+      --y: translateY(100%);
+      --lift: -1;
+      --lift-amount: calc(var(--lift) * var(--gap))
+    }
+
+    :where([data-sonner-toast]) :where([data-description]) {
+      font-weight: 400;
+      line-height: 1.4;
+      color: inherit
+    }
+
+    :where([data-sonner-toast]) :where([data-title]) {
+      font-weight: 500;
+      line-height: 1.5;
+      color: inherit
+    }
+
+    :where([data-sonner-toast]) :where([data-icon]) {
+      display: flex;
+      height: 16px;
+      width: 16px;
+      position: relative;
+      justify-content: flex-start;
+      align-items: center;
+      flex-shrink: 0;
+      margin-left: var(--toast-icon-margin-start);
+      margin-right: var(--toast-icon-margin-end)
+    }
+
+    :where([data-sonner-toast][data-promise="true"]) :where([data-icon])>svg {
+      opacity: 0;
+      transform: scale(.8);
+      transform-origin: center;
+      animation: sonner-fade-in .3s ease forwards
+    }
+
+    :where([data-sonner-toast]) :where([data-icon])>* {
+      flex-shrink: 0
+    }
+
+    :where([data-sonner-toast]) :where([data-icon]) svg {
+      margin-left: var(--toast-svg-margin-start);
+      margin-right: var(--toast-svg-margin-end)
+    }
+
+    :where([data-sonner-toast]) :where([data-content]) {
+      display: flex;
+      flex-direction: column;
+      gap: 2px
+    }
+
+    [data-sonner-toast][data-styled=true] [data-button] {
+      border-radius: 4px;
+      padding-left: 8px;
+      padding-right: 8px;
+      height: 24px;
+      font-size: 12px;
+      color: var(--normal-bg);
+      background: var(--normal-text);
+      margin-left: var(--toast-button-margin-start);
+      margin-right: var(--toast-button-margin-end);
+      border: none;
+      cursor: pointer;
+      outline: none;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      transition: opacity .4s, box-shadow .2s
+    }
+
+    :where([data-sonner-toast]) :where([data-button]):focus-visible {
+      box-shadow: 0 0 0 2px #0006
+    }
+
+    :where([data-sonner-toast]) :where([data-button]):first-of-type {
+      margin-left: var(--toast-button-margin-start);
+      margin-right: var(--toast-button-margin-end)
+    }
+
+    :where([data-sonner-toast]) :where([data-cancel]) {
+      color: var(--normal-text);
+      background: rgba(0, 0, 0, .08)
+    }
+
+    :where([data-sonner-toast][data-theme="dark"]) :where([data-cancel]) {
+      background: rgba(255, 255, 255, .3)
+    }
+
+    :where([data-sonner-toast]) :where([data-close-button]) {
+      position: absolute;
+      left: var(--toast-close-button-start);
+      right: var(--toast-close-button-end);
+      top: 0;
+      height: 20px;
+      width: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      background: var(--gray1);
+      color: var(--gray12);
+      border: 1px solid var(--gray4);
+      transform: var(--toast-close-button-transform);
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 1;
+      transition: opacity .1s, background .2s, border-color .2s
+    }
+
+    :where([data-sonner-toast]) :where([data-close-button]):focus-visible {
+      box-shadow: 0 4px 12px #0000001a, 0 0 0 2px #0003
+    }
+
+    :where([data-sonner-toast]) :where([data-disabled="true"]) {
+      cursor: not-allowed
+    }
+
+    :where([data-sonner-toast]):hover :where([data-close-button]):hover {
+      background: var(--gray2);
+      border-color: var(--gray5)
+    }
+
+    :where([data-sonner-toast][data-swiping="true"]):before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 100%;
+      z-index: -1
+    }
+
+    :where([data-sonner-toast][data-y-position="top"][data-swiping="true"]):before {
+      bottom: 50%;
+      transform: scaleY(3) translateY(50%)
+    }
+
+    :where([data-sonner-toast][data-y-position="bottom"][data-swiping="true"]):before {
+      top: 50%;
+      transform: scaleY(3) translateY(-50%)
+    }
+
+    :where([data-sonner-toast][data-swiping="false"][data-removed="true"]):before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      transform: scaleY(2)
+    }
+
+    :where([data-sonner-toast]):after {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: calc(var(--gap) + 1px);
+      bottom: 100%;
+      width: 100%
+    }
+
+    :where([data-sonner-toast][data-mounted="true"]) {
+      --y: translateY(0);
+      opacity: 1
+    }
+
+    :where([data-sonner-toast][data-expanded="false"][data-front="false"]) {
+      --scale: var(--toasts-before) * .05 + 1;
+      --y: translateY(calc(var(--lift-amount) * var(--toasts-before))) scale(calc(-1 * var(--scale)));
+      height: var(--front-toast-height)
+    }
+
+    :where([data-sonner-toast])>* {
+      transition: opacity .4s
+    }
+
+    :where([data-sonner-toast][data-expanded="false"][data-front="false"][data-styled="true"])>* {
+      opacity: 0
+    }
+
+    :where([data-sonner-toast][data-visible="false"]) {
+      opacity: 0;
+      pointer-events: none
+    }
+
+    :where([data-sonner-toast][data-mounted="true"][data-expanded="true"]) {
+      --y: translateY(calc(var(--lift) * var(--offset)));
+      height: var(--initial-height)
+    }
+
+    :where([data-sonner-toast][data-removed="true"][data-front="true"][data-swipe-out="false"]) {
+      --y: translateY(calc(var(--lift) * -100%));
+      opacity: 0
+    }
+
+    :where([data-sonner-toast][data-removed="true"][data-front="false"][data-swipe-out="false"][data-expanded="true"]) {
+      --y: translateY(calc(var(--lift) * var(--offset) + var(--lift) * -100%));
+      opacity: 0
+    }
+
+    :where([data-sonner-toast][data-removed="true"][data-front="false"][data-swipe-out="false"][data-expanded="false"]) {
+      --y: translateY(40%);
+      opacity: 0;
+      transition: transform .5s, opacity .2s
+    }
+
+    :where([data-sonner-toast][data-removed="true"][data-front="false"]):before {
+      height: calc(var(--initial-height) + 20%)
+    }
+
+    [data-sonner-toast][data-swiping=true] {
+      transform: var(--y) translateY(var(--swipe-amount, 0px));
+      transition: none
+    }
+
+    [data-sonner-toast][data-swipe-out=true][data-y-position=bottom],
+    [data-sonner-toast][data-swipe-out=true][data-y-position=top] {
+      animation: swipe-out .2s ease-out forwards
+    }
+
+    @keyframes swipe-out {
+      0% {
+        transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount)));
+        opacity: 1
+      }
+
+      to {
+        transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount) + var(--lift) * -100%));
+        opacity: 0
+      }
+    }
+
+    @media (max-width: 600px) {
+      [data-sonner-toaster] {
+        position: fixed;
+        --mobile-offset: 16px;
+        right: var(--mobile-offset);
+        left: var(--mobile-offset);
+        width: 100%
+      }
+
+      [data-sonner-toaster] [data-sonner-toast] {
+        left: 0;
+        right: 0;
+        width: calc(100% - var(--mobile-offset) * 2)
+      }
+
+      [data-sonner-toaster][data-x-position=left] {
+        left: var(--mobile-offset)
+      }
+
+      [data-sonner-toaster][data-y-position=bottom] {
+        bottom: 20px
+      }
+
+      [data-sonner-toaster][data-y-position=top] {
+        top: 20px
+      }
+
+      [data-sonner-toaster][data-x-position=center] {
+        left: var(--mobile-offset);
+        right: var(--mobile-offset);
+        transform: none
+      }
+    }
+
+    [data-sonner-toaster][data-theme=light] {
+      --normal-bg: #fff;
+      --normal-border: var(--gray4);
+      --normal-text: var(--gray12);
+      --success-bg: hsl(143, 85%, 96%);
+      --success-border: hsl(145, 92%, 91%);
+      --success-text: hsl(140, 100%, 27%);
+      --info-bg: hsl(208, 100%, 97%);
+      --info-border: hsl(221, 91%, 91%);
+      --info-text: hsl(210, 92%, 45%);
+      --warning-bg: hsl(49, 100%, 97%);
+      --warning-border: hsl(49, 91%, 91%);
+      --warning-text: hsl(31, 92%, 45%);
+      --error-bg: hsl(359, 100%, 97%);
+      --error-border: hsl(359, 100%, 94%);
+      --error-text: hsl(360, 100%, 45%)
+    }
+
+    [data-sonner-toaster][data-theme=light] [data-sonner-toast][data-invert=true] {
+      --normal-bg: #000;
+      --normal-border: hsl(0, 0%, 20%);
+      --normal-text: var(--gray1)
+    }
+
+    [data-sonner-toaster][data-theme=dark] [data-sonner-toast][data-invert=true] {
+      --normal-bg: #fff;
+      --normal-border: var(--gray3);
+      --normal-text: var(--gray12)
+    }
+
+    [data-sonner-toaster][data-theme=dark] {
+      --normal-bg: #000;
+      --normal-border: hsl(0, 0%, 20%);
+      --normal-text: var(--gray1);
+      --success-bg: hsl(150, 100%, 6%);
+      --success-border: hsl(147, 100%, 12%);
+      --success-text: hsl(150, 86%, 65%);
+      --info-bg: hsl(215, 100%, 6%);
+      --info-border: hsl(223, 100%, 12%);
+      --info-text: hsl(216, 87%, 65%);
+      --warning-bg: hsl(64, 100%, 6%);
+      --warning-border: hsl(60, 100%, 12%);
+      --warning-text: hsl(46, 87%, 65%);
+      --error-bg: hsl(358, 76%, 10%);
+      --error-border: hsl(357, 89%, 16%);
+      --error-text: hsl(358, 100%, 81%)
+    }
+
+    [data-rich-colors=true][data-sonner-toast][data-type=success],
+    [data-rich-colors=true][data-sonner-toast][data-type=success] [data-close-button] {
+      background: var(--success-bg);
+      border-color: var(--success-border);
+      color: var(--success-text)
+    }
+
+    [data-rich-colors=true][data-sonner-toast][data-type=info],
+    [data-rich-colors=true][data-sonner-toast][data-type=info] [data-close-button] {
+      background: var(--info-bg);
+      border-color: var(--info-border);
+      color: var(--info-text)
+    }
+
+    [data-rich-colors=true][data-sonner-toast][data-type=warning],
+    [data-rich-colors=true][data-sonner-toast][data-type=warning] [data-close-button] {
+      background: var(--warning-bg);
+      border-color: var(--warning-border);
+      color: var(--warning-text)
+    }
+
+    [data-rich-colors=true][data-sonner-toast][data-type=error],
+    [data-rich-colors=true][data-sonner-toast][data-type=error] [data-close-button] {
+      background: var(--error-bg);
+      border-color: var(--error-border);
+      color: var(--error-text)
+    }
+
+    .sonner-loading-wrapper {
+      --size: 16px;
+      height: var(--size);
+      width: var(--size);
+      position: absolute;
+      inset: 0;
+      z-index: 10
+    }
+
+    .sonner-loading-wrapper[data-visible=false] {
+      transform-origin: center;
+      animation: sonner-fade-out .2s ease forwards
+    }
+
+    .sonner-spinner {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      height: var(--size);
+      width: var(--size)
+    }
+
+    .sonner-loading-bar {
+      animation: sonner-spin 1.2s linear infinite;
+      background: var(--gray11);
+      border-radius: 6px;
+      height: 8%;
+      left: -10%;
+      position: absolute;
+      top: -3.9%;
+      width: 24%
+    }
+
+    .sonner-loading-bar:nth-child(1) {
+      animation-delay: -1.2s;
+      transform: rotate(.0001deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(2) {
+      animation-delay: -1.1s;
+      transform: rotate(30deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(3) {
+      animation-delay: -1s;
+      transform: rotate(60deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(4) {
+      animation-delay: -.9s;
+      transform: rotate(90deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(5) {
+      animation-delay: -.8s;
+      transform: rotate(120deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(6) {
+      animation-delay: -.7s;
+      transform: rotate(150deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(7) {
+      animation-delay: -.6s;
+      transform: rotate(180deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(8) {
+      animation-delay: -.5s;
+      transform: rotate(210deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(9) {
+      animation-delay: -.4s;
+      transform: rotate(240deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(10) {
+      animation-delay: -.3s;
+      transform: rotate(270deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(11) {
+      animation-delay: -.2s;
+      transform: rotate(300deg) translate(146%)
+    }
+
+    .sonner-loading-bar:nth-child(12) {
+      animation-delay: -.1s;
+      transform: rotate(330deg) translate(146%)
+    }
+
+    @keyframes sonner-fade-in {
+      0% {
+        opacity: 0;
+        transform: scale(.8)
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+
+    @keyframes sonner-fade-out {
+      0% {
+        opacity: 1;
+        transform: scale(1)
+      }
+
+      to {
+        opacity: 0;
+        transform: scale(.8)
+      }
+    }
+
+    @keyframes sonner-spin {
+      0% {
+        opacity: 1
+      }
+
+      to {
+        opacity: .15
+      }
+    }
+
+    @media (prefers-reduced-motion) {
+
+      [data-sonner-toast],
+      [data-sonner-toast]>*,
+      .sonner-loading-bar {
+        transition: none !important;
+        animation: none !important
+      }
+    }
+
+    .sonner-loader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform-origin: center;
+      transition: opacity .2s, transform .2s
+    }
+
+    .sonner-loader[data-visible=false] {
+      opacity: 0;
+      transform: scale(.8) translate(-50%, -50%)
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-background font-sans antialiased __variable_504f50">
+  <header class="fixed w-full top-0 z-50">
+    <nav>
+      <div class="container mx-auto flex justify-center">
+        <div class="flex items-center justify-between p-4 gap-4 backdrop-blur-sm rounded-full border border-transparent"
+          style="border-color: rgb(228, 228, 231); background: rgba(255, 255, 255, 0.314); width: auto; transform: translateY(8px) translateZ(0px);">
+          <div><a href="/"></a></div>
+          <div>
+            <ul class="flex items-center gap-6">
+              <li><a class="group text-sm inline-block" href="#about"><span class="relative"><span>About</span>
+                    <div
+                      class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                    </div>
+                  </span></a></li>
+              <li><a class="group text-sm inline-block" href="#features"><span class="relative"><span>Features</span>
+                    <div
+                      class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                    </div>
+                  </span></a></li>
+              <li><a class="group text-sm inline-block" href="#tokenomics"><span
+                    class="relative"><span>Tokenomics</span>
+                    <div
+                      class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                    </div>
+                  </span></a></li>
+              <li><a class="group text-sm inline-block" href="#how-to-buy"><span class="relative"><span>How to
+                      buy</span>
+                    <div
+                      class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                    </div>
+                  </span></a></li>
+              <li><a class="group text-sm inline-block" href="#team"><span class="relative"><span>Team</span>
+                    <div
+                      class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                    </div>
+                  </span></a></li>
+
+            </ul>
+          </div>
+          <div><a target="_blank" href="https://raydium.io/swap/"><button
+                class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 px-4 text-sm rounded-full"><span>Get
+                  Lollipop</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-lollipop w-4 h-4 ml-2 group-hover:rotate-90 transition-transform">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <path d="m21 21-4.3-4.3"></path>
+                  <path d="M11 11a2 2 0 0 0 4 0 4 4 0 0 0-8 0 6 6 0 0 0 12 0"></path>
+                </svg></button></a></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="py-32 min-h-screen bg-pattern-bubbles flex items-center">
+      <div
+        class="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]">
+      </div>
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 relative items-center">
+        <div>
+          <div class="mb-8 space-y-4">
+            <h1 class="!leading-tight text-6xl md:text-8xl font-black __className_6d9c92"><span
+                class="flex items-center">Lolly<strong class="text-primary uppercase relative rotate-12 inline-block "
+                  style="transform: scale(1) rotate(12deg) translateZ(0px);">
+                  <div class="z-10 text-[60px] md:text-[130px] -ml-3 md:ml-0">Sol!</div><img alt="pop image"
+                    loading="lazy" width="192" height="192" decoding="async" data-nimg="1"
+                    class="absolute top-[-10px] right-[-10px] w-12" style="color:transparent"
+                    src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpop.a3810e77.png&amp;w=384&amp;q=75">
+                </strong> </span></h1>
+            <h2 class="font-semibold text-2xl max-w-content !mb-4">Simplifying and sweetening your crypto journey!
+              <br>Lollipop is cultivating a community, demystifying DeFi and delivering delight.
+            </h2>
+            <div
+              class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-white text-foreground">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-receipt-text w-3 h-3 mr-3">
+                <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path>
+                <path d="M14 8H8"></path>
+                <path d="M16 12H8"></path>
+                <path d="M13 16H8"></path>
+              </svg><span class="uppercase text-lg break-all">GCFtMfKV2tfXf2RwK71yq41RciBohYyijgbE2qhnpump</span><button
+                data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-copy w-3 h-3 cursor-pointer ml-3">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg></button>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-4 w-full"><button data-state="closed"><a target="_blank"
+                href="https://www.dextools.io/app/en/solana/pair-explorer/AajAT2BiHDmRaAJnjYZNQrmXMLUMjGKjArqq3onAc9TF"><span
+                  class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full shadow-md border max-w-10"><img
+                    class="aspect-square h-full w-full"
+                    src="https://www.lollipop.finance/_next/static/media/dextools.85b4485b.webp"></span></a></button><button
+              data-state="closed"><a target="_blank" href="https://t.me/+gmfo1BAtq4RlNjA8"><span
+                  class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full shadow-md border max-w-10"><img
+                    class="aspect-square h-full w-full"
+                    src="https://www.lollipop.finance/_next/static/media/telegram.4c690777.webp"></span></a></button>
+            <div class="relative"><img alt="pop image" loading="lazy" width="192" height="192" decoding="async"
+                data-nimg="1" class="absolute top-[-35px] right-[-15px] w-12 rotate-45" style="color:transparent"
+                src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclick-arrow.7c75f116.png&amp;w=384&amp;q=75"><a
+                target="_blank" href="https://raydium.io/swap/"><button
+                  class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-12 rounded-md px-8 text-md group"><span>Get
+                    Lollipop</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-lollipop w-4 h-4 ml-2 group-hover:rotate-90 transition-transform">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.3-4.3"></path>
+                    <path d="M11 11a2 2 0 0 0 4 0 4 4 0 0 0-8 0 6 6 0 0 0 12 0"></path>
+                  </svg></button></a></div>
+          </div>
+        </div>
+        <div>
+          <div class="blob relative flex items-center justify-center"><img alt="Lollipop dog" loading="lazy"
+              width="1024" height="1024" decoding="async" data-nimg="1" class="z-10" style="color:transparent"
+              src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flollipop-dog.f40fbac1.webp&amp;w=2048&amp;q=75"><img
+              alt="Swirl image" loading="lazy" width="192" height="192" decoding="async" data-nimg="1"
+              class="absolute top-0 left-[-15px] w-16" style="color:transparent"
+              src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fswirl.f78fe029.png&amp;w=384&amp;q=75">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features" class="py-32">
+      <div class="container mx-auto">
+        <div class="mb-8 space-y-2 relative">
+          <h1 class="font-semibold text-4xl !leading-tight">Lollipop features</h1>
+          <h2 class="font-semibold text-2xl">Explore some ouf our tail-wagging features!</h2><img alt="Stars image"
+            loading="lazy" width="100" height="100" decoding="async" data-nimg="1"
+            class="absolute top-0 right-0 pointer-events-none rotate-12" style="color:transparent"
+            src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstars.b7e7640e.png&amp;w=256&amp;q=75">
+        </div>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div class="h-full" style="transform: none;">
+            <div
+              class="rounded-lg border bg-card text-card-foreground shadow-md relative overflow-clip hover:scale-[1.02] transition-transform p-0 h-full hover:-rotate-2">
+              <div class="p-0 h-full">
+                <div class="min-h-[320px]"><img alt="NFT treats (Coming Soon)" loading="lazy" decoding="async"
+                    data-nimg="fill" class="object-cover"
+                    style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                    sizes="100vw"
+                    src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnfts_dog.2b894b19.png&amp;w=3840&amp;q=75">
+                </div>
+                <div
+                  class="z-20 space-y-4 relative bg-white [mask-image:linear-gradient(transparent,black_3%)] h-full pt-6 px-4 pb-4">
+                  <h3 class="text-2xl font-semibold leading-none tracking-tight">NFT treats (Coming Soon)</h3>
+                  <div>
+                    <p>Lollipop NFTs offer weekly payouts for our loyal pups! Find out more and grab your NFTs here!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h-full" style="transform: none;">
+            <div
+              class="rounded-lg border bg-card text-card-foreground shadow-md relative overflow-clip hover:scale-[1.02] transition-transform p-0 h-full hover:rotate-2">
+              <div class="p-0 h-full">
+                <div class="min-h-[320px]"><img alt="Lollipop swap (Coming Soon)" loading="lazy" decoding="async"
+                    data-nimg="fill" class="object-cover"
+                    style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                    sizes="100vw"
+                    src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fswap_dog.d1aa9208.png&amp;w=3840&amp;q=75">
+                </div>
+                <div
+                  class="z-20 space-y-4 relative bg-white [mask-image:linear-gradient(transparent,black_3%)] h-full pt-6 px-4 pb-4">
+                  <h3 class="text-2xl font-semibold leading-none tracking-tight">Lollipop swap (Coming Soon)</h3>
+                  <div>
+                    <p>Snatch your Lollipop tokens on our Lollipop swap! Join the rest of the pups.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h-full" style="transform: none;">
+            <div
+              class="rounded-lg border bg-card text-card-foreground shadow-md relative overflow-clip hover:scale-[1.02] transition-transform p-0 h-full hover:-rotate-2">
+              <div class="p-0 h-full">
+                <div class="min-h-[320px]"><img alt="Lollipop taxes" loading="lazy" decoding="async" data-nimg="fill"
+                    class="object-cover"
+                    style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                    sizes="100vw"
+                    src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftax_dog.d2bb549b.png&amp;w=3840&amp;q=75">
+                </div>
+                <div
+                  class="z-20 space-y-4 relative bg-white [mask-image:linear-gradient(transparent,black_3%)] h-full pt-6 px-4 pb-4">
+                  <h3 class="text-2xl font-semibold leading-none tracking-tight">Lollipop taxes</h3>
+                  <div>
+                    <p>A small 3% buy fee and 5% sell fee are collected to feed Lollipop kibbles and help it grow, fund
+                      development, marketing, and staff.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h-full" style="transform: none;">
+            <div
+              class="rounded-lg border bg-card text-card-foreground shadow-md relative overflow-clip hover:scale-[1.02] transition-transform p-0 h-full hover:rotate-2">
+              <div class="p-0 h-full">
+                <div class="min-h-[320px]"><img alt="Lollipop rush" loading="lazy" decoding="async" data-nimg="fill"
+                    class="object-cover"
+                    style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                    sizes="100vw"
+                    src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fplay_dog.67fff539.png&amp;w=3840&amp;q=75">
+                </div>
+                <div
+                  class="z-20 space-y-4 relative bg-white [mask-image:linear-gradient(transparent,black_3%)] h-full pt-6 px-4 pb-4">
+                  <h3 class="text-2xl font-semibold leading-none tracking-tight">Lolly rush</h3>
+                  <div>
+                    <p>Compete against other pups and win prizes! All revenue goes back into Lolly.
+                      <br>Download the latest version<!-- --> <a
+                        href="https://apps.apple.com/gb/app/lollipop-rush/id6502919882" class="underline"
+                        target="_blank">here</a>.
+                    </p>
+                    <div><a href="https://apps.apple.com/gb/app/lollipop-rush/id6502919882" target="_blank"><img
+                          alt="App store logo" loading="lazy" width="130" height="44" decoding="async" data-nimg="1"
+                          style="color:transparent"
+                          src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fapp-store-logo.d057bd4c.png&amp;w=384&amp;q=75"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-lg border text-card-foreground shadow-md md:col-span-2 bg-pattern border-primary">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-4 p-4">
+              <div class="space-y-2">
+                <h2 class="font-semibold text-2xl">Become part of the Lolly community and get the latest updates!
+                </h2>
+                <div class="flex flex-wrap gap-4 w-full"><button data-state="closed"><a target="_blank"
+                      href="https://t.me/+gmfo1BAtq4RlNjA8"><span
+                        class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full shadow-md border max-w-10"><img
+                          class="aspect-square h-full w-full"
+                          src="https://www.lollipop.finance/_next/static/media/telegram.4c690777.webp"></span></a></button><a
+                    target="_blank" href="https://raydium.io/swap/"><button
+                      class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-4 text-sm group"><span>Get
+                        Lolly</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-lollipop w-4 h-4 ml-2 group-hover:rotate-90 transition-transform">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path>
+                        <path d="M11 11a2 2 0 0 0 4 0 4 4 0 0 0-8 0 6 6 0 0 0 12 0"></path>
+                      </svg></button></a></div>
+              </div>
+              <div class="blob max-w-[500px]"><img alt="Lollipop dog" loading="lazy" width="422" height="421"
+                  decoding="async" data-nimg="1" style="color:transparent"
+                  src="https://www.lollipop.finance/_next/static/media/lollipop-dog-2.77dd7848.svg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-32 bg-pattern-bubbles relative overflow-clip" id="about">
+      <div
+        class="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]">
+      </div>
+      <div class="container mx-auto relative z-10">
+        <div class="mb-8 space-y-2 relative z-10">
+          <h1 class="font-semibold text-4xl !leading-tight">Lolly</h1>
+          <h2 class="font-semibold text-2xl">How we simplify and sweeten your crypto journey</h2>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 relative z-10">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-md py-8 group">
+            <div class="p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0">
+              <div class="justify-self-end sm:justify-self-center lg:justify-self-auto"><img alt="Navigation"
+                  loading="lazy" width="130" height="130" decoding="async" data-nimg="1"
+                  class="group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full"
+                  style="color:transparent"
+                  src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnavigation.bd2478f7.png&amp;w=384&amp;q=75">
+              </div>
+              <div class="space-y-2 -translate-y-[30px] sm:translate-y-0">
+                <h3 class="font-semibold text-xl">Navigation</h3>
+                <div>
+                  <p>Experience a safe and welcoming introduction to DeFi with the Lollipop team. We pride ourselves on
+                    being genuine and transparent, ready to assist every community member. Let us guide you through the
+                    DeFi landscape with confidence and clarity.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-md py-8 group">
+            <div class="p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0">
+              <div class="justify-self-end sm:justify-self-center lg:justify-self-auto"><img alt="Education"
+                  loading="lazy" width="130" height="130" decoding="async" data-nimg="1"
+                  class="group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full"
+                  style="color:transparent"
+                  src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feducation.36e6b9f5.png&amp;w=384&amp;q=75">
+              </div>
+              <div class="space-y-2 -translate-y-[30px] sm:translate-y-0">
+                <h3 class="font-semibold text-xl">Education</h3>
+                <div>
+                  <p>Eager to learn about DeFi? Seek answers, gather insights, and benefit from the wisdom of our
+                    experienced team and vibrant community. We are dedicated to enriching your financial literacy and
+                    equipping you with the knowledge to make better DeFi decisions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-md py-8 group">
+            <div class="p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0">
+              <div class="justify-self-end sm:justify-self-center lg:justify-self-auto"><img alt="Accumulation"
+                  loading="lazy" width="130" height="130" decoding="async" data-nimg="1"
+                  class="group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full"
+                  style="color:transparent"
+                  src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faccumulation.28cb692c.png&amp;w=384&amp;q=75">
+              </div>
+              <div class="space-y-2 -translate-y-[30px] sm:translate-y-0">
+                <h3 class="font-semibold text-xl">Accumulation</h3>
+                <div>
+                  <p>Grow your assets, increase your income, and deepen your understanding of DeFi. You can unlock the
+                    true potential of decentralized finance and build a robust financial future.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-md py-8 group">
+            <div class="p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0">
+              <div class="justify-self-end sm:justify-self-center lg:justify-self-auto"><img alt="Innovation"
+                  loading="lazy" width="130" height="130" decoding="async" data-nimg="1"
+                  class="group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full"
+                  style="color:transparent"
+                  src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finnovation.70f58594.png&amp;w=384&amp;q=75">
+              </div>
+              <div class="space-y-2 -translate-y-[30px] sm:translate-y-0">
+                <h3 class="font-semibold text-xl">Innovation</h3>
+                <div>
+                  <p>Your voice matters. We will support and facilitate community-driven projects, empowering our
+                    members to share their ideas and lead their own initiatives. Your active participation is the key to
+                    our mutual success.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-md py-8 group col-span-1 lg:col-span-2">
+            <div class="p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0">
+              <div class="justify-self-end sm:justify-self-center lg:justify-self-auto"><img alt="Transformation"
+                  loading="lazy" width="130" height="130" decoding="async" data-nimg="1"
+                  class="group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full"
+                  style="color:transparent"
+                  src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftransformation.ff95d370.png&amp;w=384&amp;q=75">
+              </div>
+              <div class="space-y-2 -translate-y-[30px] sm:translate-y-0">
+                <h3 class="font-semibold text-xl">Transformation</h3>
+                <div>
+                  <p>Boost your confidence, build your wealth, and transform your financial outlook. Join us in our
+                    mission to reach and empower as many community members as possible. Together, we can make a
+                    difference.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><img alt="Dog head image" loading="lazy" width="280" height="280" decoding="async" data-nimg="1"
+          class="absolute top-[-150px] right-4 rotate-12 md:opacity-100 opacity-50 z-0" style="color:transparent"
+          src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdog_head_2.c75d8a84.png&amp;w=640&amp;q=75">
+      </div>
+    </section>
+    <section id="tokenomics" class="py-32 bg-pattern">
+      <div class="container mx-auto">
+        <div class="mb-8 space-y-2">
+          <h1 class="font-semibold text-4xl !leading-tight">Tokenomics</h1>
+          <h2 class="font-semibold text-2xl">Everything about Lollipop "Barkonomics"</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="rounded-lg border bg-card text-card-foreground shadow-md md:col-span-2">
+              <div class="flex flex-col space-y-1.5 p-6">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight">Token name</h3>
+              </div>
+              <div class="p-6 pt-0"><span class="text-lg">LOLLY</span></div>
+            </div>
+            <div class="rounded-lg border bg-card text-card-foreground shadow-md">
+              <div class="flex flex-col space-y-1.5 p-6">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight">Ticker</h3>
+              </div>
+              <div class="p-6 pt-0"><span class="text-lg">LOLLY</span></div>
+            </div>
+            <div class="rounded-lg border bg-card text-card-foreground shadow-md">
+              <div class="flex flex-col space-y-1.5 p-6">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight">Chain</h3>
+              </div>
+              <div class="p-6 pt-0"><span class="text-lg">Solana</span></div>
+            </div>
+            <div class="rounded-lg border bg-card text-card-foreground shadow-md">
+              <div class="flex flex-col space-y-1.5 p-6">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight">Taxes</h3>
+              </div>
+              <div class="p-6 pt-0"><span class="text-lg">0% Buy tax / 0% Sell tax </span></div>
+            </div>
+            <div class="rounded-lg border bg-card text-card-foreground shadow-md">
+              <div class="flex flex-col space-y-1.5 p-6">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight">Total supply</h3>
+              </div>
+              <div class="p-6 pt-0"><span class="text-lg">100 M</span></div>
+            </div>
+            <div class="rounded-lg border bg-card text-card-foreground shadow-md">
+              <div class="flex flex-col space-y-1.5 p-6">
+                <h3 class="text-2xl font-semibold leading-none tracking-tight">LQ Burn</h3>
+              </div>
+              <div class="p-6 pt-0"><span class="text-lg">100%</span></div>
+            </div>
+
+          </div>
+          <div class="self-end"><img alt="Lollipop tokenomics" loading="lazy" width="1024" height="1024"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbarkonomics.3b105756.png&amp;w=2048&amp;q=75">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-32 mesh-gradient relative" id="team">
+      <div class="bg-pattern-bubbles absolute inset-0 pointer-events-none"></div>
+      <div class="container mx-auto relative z-10 text-white">
+        <div class="mb-8 space-y-2 text-center">
+          <h1 class="font-semibold text-4xl !leading-tight">The Dogfathers</h1>
+          <h2 class="font-semibold text-2xl max-w-content mx-auto">Meet the dogfathers behind Lollipop. A group of
+            innovative people with the vision for a transparent DeFi space.</h2>
+        </div>
+        <div class="flex flex-wrap justify-center md:justify-between items-center gap-4">
+          <div class="flex items-center flex-col gap-4" style="transform: none;">
+            <div><img alt="Scott image" loading="lazy" width="150" height="150" decoding="async" data-nimg="1"
+                style="color:transparent" src="https://www.lollipop.finance/_next/static/media/scott.6f8f1491.svg">
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold flex justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-paw-print">
+                  <circle cx="11" cy="4" r="2"></circle>
+                  <circle cx="18" cy="8" r="2"></circle>
+                  <circle cx="20" cy="16" r="2"></circle>
+                  <path
+                    d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z">
+                  </path>
+                </svg><span>Scott</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="lucide lucide-paw-print">
+                  <circle cx="11" cy="4" r="2"></circle>
+                  <circle cx="18" cy="8" r="2"></circle>
+                  <circle cx="20" cy="16" r="2"></circle>
+                  <path
+                    d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z">
+                  </path>
+                </svg></div>
+              <div>Chief Executive Officer</div>
+            </div>
+          </div>
+          <div class="flex items-center flex-col gap-4" style="transform: none;">
+            <div><img alt="Sam image" loading="lazy" width="150" height="150" decoding="async" data-nimg="1"
+                style="color:transparent" src="https://www.lollipop.finance/_next/static/media/sam.9b61c9b1.svg"></div>
+            <div class="text-center">
+              <div class="text-3xl font-bold flex justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-paw-print">
+                  <circle cx="11" cy="4" r="2"></circle>
+                  <circle cx="18" cy="8" r="2"></circle>
+                  <circle cx="20" cy="16" r="2"></circle>
+                  <path
+                    d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z">
+                  </path>
+                </svg><span>Sam</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-paw-print">
+                  <circle cx="11" cy="4" r="2"></circle>
+                  <circle cx="18" cy="8" r="2"></circle>
+                  <circle cx="20" cy="16" r="2"></circle>
+                  <path
+                    d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z">
+                  </path>
+                </svg></div>
+              <div>Chief Operating Officer</div>
+            </div>
+          </div>
+          <div class="flex items-center flex-col gap-4" style="transform: none;">
+            <div><img alt="Nismo image" loading="lazy" width="150" height="150" decoding="async" data-nimg="1"
+                style="color:transparent" src="https://www.lollipop.finance/_next/static/media/nismo.a817b38e.svg">
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold flex justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-paw-print">
+                  <circle cx="11" cy="4" r="2"></circle>
+                  <circle cx="18" cy="8" r="2"></circle>
+                  <circle cx="20" cy="16" r="2"></circle>
+                  <path
+                    d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z">
+                  </path>
+                </svg><span>Nismo</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="lucide lucide-paw-print">
+                  <circle cx="11" cy="4" r="2"></circle>
+                  <circle cx="18" cy="8" r="2"></circle>
+                  <circle cx="20" cy="16" r="2"></circle>
+                  <path
+                    d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z">
+                  </path>
+                </svg></div>
+              <div>Chief Software Developer</div>
+            </div>
+          </div>
+          <div class="flex items-center flex-col gap-4" style="transform: none;">
+            <div><img alt="Mike image" loading="lazy" width="150" height="150" decoding="async" data-nimg="1"
+                style="color:transparent" src="https://www.lollipop.finance/_next/static/media/mike.098fb8ec.svg"></div>
+            <div class="text-center">
+              <div class="text-3xl font-bold flex justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-paw-print">
+                  <circle cx="11" cy="4" r="2"></circle>
+                  <circle cx="18" cy="8" r="2"></circle>
+                  <circle cx="20" cy="16" r="2"></circle>
+                  <path
+                    d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z">
+                  </path>
+                </svg><span>Mike</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="lucide lucide-paw-print">
+                  <circle cx="11" cy="4" r="2"></circle>
+                  <circle cx="18" cy="8" r="2"></circle>
+                  <circle cx="20" cy="16" r="2"></circle>
+                  <path
+                    d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z">
+                  </path>
+                </svg></div>
+              <div>Chief Technology Officer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="social-media" class="py-32">
+      <div class="container mx-auto">
+        <div class="mb-8 space-y-2 text-center">
+          <div style="transform: none;">
+            <h1 class="font-semibold text-4xl !leading-tight inline">Join our community</h1><img alt="Chat image"
+              loading="lazy" width="40" height="40" decoding="async" data-nimg="1"
+              class="pointer-events-none inline -translate-y-1" style="color:transparent"
+              src="https://www.lollipop.finance/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchat.217f9bf4.png&amp;w=96&amp;q=75">
+          </div>
+          <h2 class="font-semibold text-2xl max-w-content mx-auto">Become a part of a community full of like-minded
+            people on a mission to make DeFi fun and transparent!</h2>
+        </div>
+        <div class="flex flex-wrap gap-4 w-full justify-center"><button data-state="closed"><a target="_blank"
+              href="https://t.me/+gmfo1BAtq4RlNjA8"><span
+                class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full shadow-md border max-w-10"><img
+                  class="aspect-square h-full w-full"
+                  src="https://www.lollipop.finance/_next/static/media/telegram.4c690777.webp"></span></a></button><a
+            target="_blank" href="https://raydium.io/swap/"><button
+              class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-12 rounded-md px-8 text-md group"><span>Get
+                Lolly</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-lollipop w-4 h-4 ml-2 group-hover:rotate-90 transition-transform">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.3-4.3"></path>
+                <path d="M11 11a2 2 0 0 0 4 0 4 4 0 0 0-8 0 6 6 0 0 0 12 0"></path>
+              </svg></button></a></div>
+      </div>
+    </section>
+  </main>
+  <footer
+    class="bg-white bg-pattern-bubbles border-t border-zinc-50 text-sm [&amp;_ul]:space-y-2 [&amp;_h4]:mb-4 pt-24 pb-12">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-4">
+        <div>
+          <h4 class="font-semibold text-lg">Lolly</h4>
+          <ul>
+            <li><a class="group text-sm inline-block" href="#about"><span class="relative"><span>About</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+            <li><a class="group text-sm inline-block" href="#features"><span class="relative"><span>Features</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+            <li><a class="group text-sm inline-block" href="#tokenomics"><span class="relative"><span>Tokenomics</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+            <li><a class="group text-sm inline-block" href="#how-to-buy"><span class="relative"><span>How to buy</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+            <li><a class="group text-sm inline-block" href="#team"><span class="relative"><span>Team</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+            <li><a class="group text-sm inline-block" href="https://lollipop-4.gitbook.io/lolli-docs"><span
+                  class="relative"><span>Lolly Docs</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">Lolly games</h4>
+          <ul>
+            <li><a class="group text-sm inline-block"
+                href="https://apps.apple.com/gb/app/lollipop-rush/id6502919882"><span class="relative"><span>Lolly
+                    Rush</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">Legal</h4>
+          <ul>
+            <li><a class="group text-sm inline-block" href="#"><span class="relative"><span>Privacy policy</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+            <li><a class="group text-sm inline-block" href="#"><span class="relative"><span>Terms of services</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+            <li><a class="group text-sm inline-block" href="#"><span class="relative"><span>Cookie policy</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+            <li><a class="group text-sm inline-block" href="#"><span class="relative"><span>Disclaimer</span>
+                  <div
+                    class="absolute bottom-0 group-hover:w-full scale-x-0 group-hover:scale-x-100 origin-left transition h-[2px] bg-foreground">
+                  </div>
+                </span></a></li>
+          </ul>
+        </div>
+        <div class="blob w-[125px] md:w-[170px]"><img alt="Lollipop dog" loading="lazy" width="150" height="150"
+            decoding="async" data-nimg="1" style="color:transparent"
+            src="https://www.lollipop.finance/_next/static/media/lollipop-dog-2.77dd7848.svg"></div>
+      </div>
+      <div class="flex items-center justify-center pt-12">
+        <div class="space-x-2"><span>@ <!-- -->2024</span><span>Lolly.</span><span>All rights reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>(self.__next_f = self.__next_f || []).push([0]); self.__next_f.push([2, null])</script>
+  <script>self.__next_f.push([1, "1:HL[\"/_next/static/media/659a22e76bc72812-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/media/a1affea567619055-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n3:HL[\"/_next/static/css/28e786769c7fa70d.css\",\"style\"]\n4:HL[\"/_next/static/media/844dc71011366724-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n5:HL[\"/_next/static/css/212514f842176a89.css\",\"style\"]\n"])</script>
+  <script>self.__next_f.push([1, "6:I[4468,[],\"\"]\n8:I[39,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"931\",\"static/chunks/app/page-2a5d33a0a7b7facc.js\"],\"default\"]\n9:I[2176,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"931\",\"static/chunks/app/page-2a5d33a0a7b7facc.js\"],\"default\"]\na:I[2404,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"931\",\"static/chunks/app/page-2a5d33a0a7b7facc.js\"],\"Image\"]\nb:I[9113,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"931\",\"static/chunks/app/page-2a5d33a0a7b7facc.js\"],\"default\"]\nc:I[3117,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"931\",\"static/chunks/app/page-2a5d33a0a7b7facc.js\"],\"default\"]\nd:I[5174,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"931\",\"static/chunks/app/page-2a5d33a0a7b7facc.js\"],\"default\"]\ne:I[4559,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"220\",\"static/chunks/220-c5944965e87aaede.js\",\"185\",\"static/chunks/app/layout-a7cadf3edc7667a9.js\"],\"TooltipProvider\"]\nf:I[5159,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"220\",\"static/chunks/220-c5944965e87aaede.js\",\"185\",\"static/chunks/app/layout-a7cadf3edc7667a9.js\"],\"default\"]\n10:I[4641,[],\"\"]\n11:I[2063,[],\"\"]\n12:I[4850,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"220\",\"static/chunks/220-c5944965e87aaede.js\",\"185\",\"static/chunks/app/layout-a7cadf3edc7667a9.js\"],\"default\"]\n13:I[5052,[\"313\",\"static/chunks/313-e948a7383de9fd87.js\",\"220\",\"static/chunks/220-c5944965e87aaede.js\",\"185\",\"static/chunks/app/layout-a7cadf3edc7667a9.js\"],\"Toaster\"]\n15:I[7115,[],\"\"]\n16:[]\n"])</script>
+  <script>self.__next_f.push([1, "0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/28e786769c7fa70d.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L6\",null,{\"buildId\":\"1o2pLKU_7yPrdIXVEcgMw\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"__PAGE__\",{},[[\"$L7\",[[\"$\",\"$L8\",null,{}],[\"$\",\"$L9\",null,{}],[\"$\",\"section\",null,{\"className\":\"py-32 bg-pattern-bubbles relative overflow-clip\",\"id\":\"about\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]\"}],[\"$\",\"div\",null,{\"className\":\"container mx-auto relative z-10\",\"children\":[[\"$\",\"div\",null,{\"className\":\"mb-8 space-y-2 relative z-10\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"font-semibold text-4xl !leading-tight\",\"children\":\"Lollipop Finance\"}],[\"$\",\"h2\",null,{\"className\":\"font-semibold text-2xl\",\"children\":\"How we simplify and sweeten your crypto journey\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 lg:grid-cols-2 gap-4 relative z-10\",\"children\":[[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md py-8 group\",\"children\":[\"$\",\"div\",null,{\"className\":\"p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0\",\"children\":[[\"$\",\"div\",null,{\"className\":\"justify-self-end sm:justify-self-center lg:justify-self-auto\",\"children\":[\"$\",\"$La\",null,{\"width\":130,\"src\":{\"src\":\"/_next/static/media/navigation.bd2478f7.png\",\"height\":250,\"width\":250,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAS1BMVEVMaXHolJEnE7BIJ86STuSvW9fWmKElFqIyGrdnPN9DKsFPKb9iQNWXRd+MXt+1T9LMV8PjjJTUbsDjfYvqqXUYAJVvOeXSYtXpb7UZR8YXAAAAFnRSTlMAHCf8/vgoE1Y/hbr6eaC55/mKSYkMfc8j5wAAAAlwSFlzAAALEwAACxMBAJqcGAAAADtJREFUeJwlilkOgCAUxMr6wAUUCHj/kxqgP9NkChPl1/jyNiAmN74KHJd1j5qPnDavhNDvLdrELQSBHzJpAUBsYnfUAAAAAElFTkSuQmCC\",\"blurWidth\":8,\"blurHeight\":8},\"alt\":\"Navigation\",\"className\":\"group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full\"}]}],[\"$\",\"div\",null,{\"className\":\"space-y-2 -translate-y-[30px] sm:translate-y-0\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-semibold text-xl\",\"children\":\"Navigation\"}],[\"$\",\"div\",null,{\"children\":[\"$\",\"p\",null,{\"children\":\"Experience a safe and welcoming introduction to DeFi with the Lollipop team. We pride ourselves on being genuine and transparent, ready to assist every community member. Let us guide you through the DeFi landscape with confidence and clarity.\"}]}]]}]]}]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md py-8 group\",\"children\":[\"$\",\"div\",null,{\"className\":\"p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0\",\"children\":[[\"$\",\"div\",null,{\"className\":\"justify-self-end sm:justify-self-center lg:justify-self-auto\",\"children\":[\"$\",\"$La\",null,{\"width\":130,\"src\":{\"src\":\"/_next/static/media/education.36e6b9f5.png\",\"height\":250,\"width\":250,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAM1BMVEVMaXHYdIbXhlHaYJiVg7Z5RJPFW6OaRZ6ESNPdsWPepFbGUrXjrWThg3d3Y6/2p3SnXse1VFHSAAAAD3RSTlMA+3ShqX6aGygXhPqMPMdVp/fhAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAMUlEQVR4nGNgYGBgYOcAkQwMDCx8EJpDgBXCYONmB9PsjMwQASZ+XgiDiweqhxNMAQAXAQCfjqRpLAAAAABJRU5ErkJggg==\",\"blurWidth\":8,\"blurHeight\":8},\"alt\":\"Education\",\"className\":\"group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full\"}]}],[\"$\",\"div\",null,{\"className\":\"space-y-2 -translate-y-[30px] sm:translate-y-0\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-semibold text-xl\",\"children\":\"Education\"}],[\"$\",\"div\",null,{\"children\":[\"$\",\"p\",null,{\"children\":\"Eager to learn about DeFi? Seek answers, gather insights, and benefit from the wisdom of our experienced team and vibrant community. We are dedicated to enriching your financial literacy and equipping you with the knowledge to make better DeFi decisions.\"}]}]]}]]}]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md py-8 group\",\"children\":[\"$\",\"div\",null,{\"className\":\"p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0\",\"children\":[[\"$\",\"div\",null,{\"className\":\"justify-self-end sm:justify-self-center lg:justify-self-auto\",\"children\":[\"$\",\"$La\",null,{\"width\":130,\"src\":{\"src\":\"/_next/static/media/accumulation.28cb692c.png\",\"height\":250,\"width\":250,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAZlBMVEVMaXFMHJ68N7CiK6RrJJrtqZ15GHWDLJfkpmzvnoQwC3vkba3akW3YcmnFV3jroXtvJpL3w42+RVbvw4vSY0TwrGvVTprvx3enO4/knFWIIZ3jg4vVclGOL4KkMUi+Ujf/ypfkbapuN9ikAAAAGXRSTlMAXljv9PwzGzkvROUOUPz8SdfJxPn5+HP+KLl3KgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEFJREFUeJwdykUWgDAQwNAgNay0aHHuf0kek9VfBLAOqR3TIoh3mgYL6OvwT2igP7tdKQdZuc5vbfi1FbnsujLwAV0MAnMgt7gCAAAAAElFTkSuQmCC\",\"blurWidth\":8,\"blurHeight\":8},\"alt\":\"Accumulation\",\"className\":\"group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full\"}]}],[\"$\",\"div\",null,{\"className\":\"space-y-2 -translate-y-[30px] sm:translate-y-0\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-semibold text-xl\",\"children\":\"Accumulation\"}],[\"$\",\"div\",null,{\"children\":[\"$\",\"p\",null,{\"children\":\"Grow your assets, increase your income, and deepen your understanding of DeFi. You can unlock the true potential of decentralized finance and build a robust financial future.\"}]}]]}]]}]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md py-8 group\",\"children\":[\"$\",\"div\",null,{\"className\":\"p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0\",\"children\":[[\"$\",\"div\",null,{\"className\":\"justify-self-end sm:justify-self-center lg:justify-self-auto\",\"children\":[\"$\",\"$La\",null,{\"width\":130,\"src\":{\"src\":\"/_next/static/media/innovation.70f58594.png\",\"height\":250,\"width\":250,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAASFBMVEVMaXH93qHv0IzfP79MI804Gcbz2ZU7GtBLHMuVZ5mlOqpjLMysM5vrkqvZjlR7Lr3owXrAQbbmiITCR7T4xG3/6Jz9oKzUXH7EzJZeAAAAE3RSTlMArNoQ9VuAYJUn/nNshsf2qbP3C5f2aAAAAAlwSFlzAAALEwAACxMBAJqcGAAAADRJREFUeJxjYEACnAJMbGAGn4goI4jmERcS42VgYODm5xIWZGZgYGBnYeEAq2DlYOdE1goALSwBMZKRmFUAAAAASUVORK5CYII=\",\"blurWidth\":8,\"blurHeight\":8},\"alt\":\"Innovation\",\"className\":\"group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full\"}]}],[\"$\",\"div\",null,{\"className\":\"space-y-2 -translate-y-[30px] sm:translate-y-0\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-semibold text-xl\",\"children\":\"Innovation\"}],[\"$\",\"div\",null,{\"children\":[\"$\",\"p\",null,{\"children\":\"Your voice matters. We will support and facilitate community-driven projects, empowering our members to share their ideas and lead their own initiatives. Your active participation is the key to our mutual success.\"}]}]]}]]}]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md py-8 group col-span-1 lg:col-span-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"p-6 pt-0 grid grid-cols-1 sm:grid-cols-[130px,1fr] md:gap-8 justify-center items-center pb-0\",\"children\":[[\"$\",\"div\",null,{\"className\":\"justify-self-end sm:justify-self-center lg:justify-self-auto\",\"children\":[\"$\",\"$La\",null,{\"width\":130,\"src\":{\"src\":\"/_next/static/media/transformation.ff95d370.png\",\"height\":250,\"width\":250,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAdVBMVEVMaXHwlJ9QPbzEaNF8U97V1XHLcuh2TuSDW+1KJZ9BM7EkDKNvIJxxUt/ro4/XatS0NUrgomeaNbLJWJXhiWmTV9aSYeUeADGvM36iZu40GquuQZtzNKnopoXGX8fwjrnkpYDVarVIJMjQZGmwWdzbcOjteKNA+3OAAAAAJHRSTlMA+WgnzgZXMPxSqCo+/SdgMId828z24kPA1K7z90X9tcTMDm38hYxNAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAQUlEQVR4nB3LRRKAMAAAsS1UcXe3/z+RgdwDijnhk29iTX1QlSjHW8P57LRTb8i6RR/SGiiuurESiNwQB97/Qge8dtMDDhwkLqwAAAAASUVORK5CYII=\",\"blurWidth\":8,\"blurHeight\":8},\"alt\":\"Transformation\",\"className\":\"group-hover:-translate-y-2 group-hover:rotate-6 transition-transform max-w-[50px] md:max-w-[130px] w-full\"}]}],[\"$\",\"div\",null,{\"className\":\"space-y-2 -translate-y-[30px] sm:translate-y-0\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"font-semibold text-xl\",\"children\":\"Transformation\"}],[\"$\",\"div\",null,{\"children\":[\"$\",\"p\",null,{\"children\":\"Boost your confidence, build your wealth, and transform your financial outlook. Join us in our mission to reach and empower as many community members as possible. Together, we can make a difference.\"}]}]]}]]}]}]]}],[\"$\",\"$La\",null,{\"src\":{\"src\":\"/_next/static/media/dog_head_2.c75d8a84.png\",\"height\":358,\"width\":358,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAYFBMVEVMaXHJxL3///8rMTnJz9aQj419fHqzr6bZ18+5trBiaHDLxrzAvLPf2cy5ubSEjp7W1soAAADDw7yZlpQxOUUgJTFQUlXa1MpXWV5BP0Do5d3///8xMjecmZViYmOFhoTB1pcgAAAAHHRSTlMAagFpDP79+zP0Ufv7/ogyWBLdkqXD5+XK/akb1UK2FwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEJJREFUeJwFwYcBgCAQALFDylPtXdD9tzShg8cbOjD3EZZoiLuTdtWVs1rrXN3QX7FvbpppLiISBhhTyqEH8Ep5+AFs3QLPjBPbUgAAAABJRU5ErkJggg==\",\"blurWidth\":8,\"blurHeight\":8},\"alt\":\"Dog head image\",\"width\":280,\"className\":\"absolute top-[-150px] right-4 rotate-12 md:opacity-100 opacity-50 z-0\"}]]}]]}],[\"$\",\"$Lb\",null,{}],[\"$\",\"section\",null,{\"id\":\"tokenomics\",\"className\":\"py-32 bg-pattern\",\"children\":[\"$\",\"div\",null,{\"className\":\"container mx-auto\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h1\",null,{\"className\":\"font-semibold text-4xl !leading-tight\",\"children\":\"Tokenomics\"}],[\"$\",\"h2\",null,{\"className\":\"font-semibold text-2xl\",\"children\":\"Everything about Lollipop \\\"Barkonomics\\\"\"}]],\"className\":\"mb-8 space-y-2\"}],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-2 gap-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-2 gap-4\",\"children\":[[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md md:col-span-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Token name\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"Lollipop\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Ticker\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"LOLLY\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Chain\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"Binance Smart Chain\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Taxes\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"3% Buy tax / 5% Sell tax (Adjustable up to 10%)\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Total supply\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"1 Billion\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Circulating supply\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"250 Million\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Development\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"100 Million (1.2M unlocked)\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Locked tokens\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"244.6 Million (Min 1 year until Phase 2)\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Marketing \u0026 Community\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"250 Million (3M unlocked)\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Team share\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"150 Million (15M unlocked @ launch. 135M vested for 25 months, 5.4M unlocked monthly)\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-lg border bg-card text-card-foreground shadow-md\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col space-y-1.5 p-6\",\"children\":[\"$\",\"h3\",null,{\"className\":\"text-2xl font-semibold leading-none tracking-tight\",\"children\":\"Consultants\"}]}],[\"$\",\"div\",null,{\"className\":\"p-6 pt-0\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-lg\",\"children\":\"12 Million (Vested until $5M MC) + 8.334M (Active)\"}]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"self-end\",\"children\":[\"$\",\"$La\",null,{\"src\":{\"src\":\"/_next/static/media/barkonomics.3b105756.png\",\"height\":1024,\"width\":1024,\"blurDataURL\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAe1BMVEVMaXHo6N2oq6Q0PDxoaWbb18rDz8w0OD7/4esuMjeBhoR1eHXDw7kNGjUvOD3////FwLLQ1NIkLTY0Njuo4+anzrMpLDGkvrm1t7CljoWkycjHrISktKuxqp21s6h9t6CNjYeamZBFwc+TjoWXmZPFvbItzsR6eXNJzt3FVJydAAAAJHRSTlMARPNm4vmPJRm93ne1E1tN53g46JTy/OyVtvbs44r4/S/t/vgpi+OiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAQ0lEQVR4nB3GRRaAIABAwa8Cgt3dff8T+nRWA6Atfo5nG/eLfxzii46TMwDSspdShFBcc71XJkI92zrdeYbqhrYZF15VZgOAIFq4LwAAAABJRU5ErkJggg==\",\"blurWidth\":8,\"blurHeight\":8},\"alt\":\"Lollipop tokenomics\"}]}]]}]]}]}],[\"$\",\"$Lc\",null,{}],[\"$\",\"$Ld\",null,{}]]],null],null]},[[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"min-h-screen bg-background font-sans antialiased __variable_504f50\",\"children\":[\"$\",\"$Le\",null,{\"delayDuration\":300,\"children\":[[\"$\",\"header\",null,{\"className\":\"fixed w-full top-0 z-50\",\"children\":[\"$\",\"$Lf\",null,{}]}],[\"$\",\"main\",null,{\"children\":[\"$\",\"$L10\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L11\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/212514f842176a89.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]}]}],[\"$\",\"footer\",null,{\"className\":\"bg-white bg-pattern-bubbles border-t border-zinc-50 text-sm [\u0026_ul]:space-y-2 [\u0026_h4]:mb-4 pt-24 pb-12\",\"children\":[\"$\",\"div\",null,{\"className\":\"container mx-auto\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-2 md:grid-cols-4 gap-8 mb-4\",\"children\":[[[\"$\",\"div\",\"footer_menu_0\",{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold text-lg\",\"children\":\"Lollipop\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"footer_group_menu_0\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#about\",\"children\":\"About\"}]}],[\"$\",\"li\",\"footer_group_menu_1\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#features\",\"children\":\"Features\"}]}],[\"$\",\"li\",\"footer_group_menu_2\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#tokenomics\",\"children\":\"Tokenomics\"}]}],[\"$\",\"li\",\"footer_group_menu_3\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#how-to-buy\",\"children\":\"How to buy\"}]}],[\"$\",\"li\",\"footer_group_menu_4\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#team\",\"children\":\"Team\"}]}],[\"$\",\"li\",\"footer_group_menu_5\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"https://lollipop-4.gitbook.io/lolli-docs\",\"children\":\"Lollipop Docs\"}]}]]}]]}],[\"$\",\"div\",\"footer_menu_1\",{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold text-lg\",\"children\":\"Lollipop games\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"footer_group_menu_0\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"https://apps.apple.com/gb/app/lollipop-rush/id6502919882\",\"children\":\"Lollipop Rush\"}]}]]}]]}],[\"$\",\"div\",\"footer_menu_2\",{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold text-lg\",\"children\":\"Legal\"}],[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",\"footer_group_menu_0\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#\",\"children\":\"Privacy policy\"}]}],[\"$\",\"li\",\"footer_group_menu_1\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#\",\"children\":\"Terms of services\"}]}],[\"$\",\"li\",\"footer_group_menu_2\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#\",\"children\":\"Cookie policy\"}]}],[\"$\",\"li\",\"footer_group_menu_3\",{\"children\":[\"$\",\"$L12\",null,{\"href\":\"#\",\"children\":\"Disclaimer\"}]}]]}]]}]],[\"$\",\"div\",null,{\"className\":\"blob w-[125px] md:w-[170px]\",\"children\":[\"$\",\"$La\",null,{\"src\":{\"src\":\"/_next/static/media/lollipop-dog-2.77dd7848.svg\",\"height\":421,\"width\":422,\"blurWidth\":0,\"blurHeight\":0},\"alt\":\"Lollipop dog\",\"width\":150}]}]]}],[\"$\",\"div\",null,{\"className\":\"flex items-center justify-center pt-12\",\"children\":[\"$\",\"div\",null,{\"className\":\"space-x-2\",\"children\":[[\"$\",\"span\",null,{\"children\":[\"@ \",2024]}],[\"$\",\"span\",null,{\"children\":\"Lollipop Finance.\"}],[\"$\",\"span\",null,{\"children\":\"All rights reserved\"}]]}]}]]}]}],[\"$\",\"$L13\",null,{\"richColors\":true}]]}]}]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$L14\"],\"globalErrorComponent\":\"$15\",\"missingSlots\":\"$W16\"}]]\n"])</script>
+  <script>self.__next_f.push([1, "14:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Lollipop Finance\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Simplifying and sweetening your crypto journey! Lollipop is cultivating a community, demystifying DeFi and delivering delight.\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:title\",\"content\":\"Lollipop Finance\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:description\",\"content\":\"Simplifying and sweetening your crypto journey! Lollipop is cultivating a community, demystifying DeFi and delivering delight.\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:url\",\"content\":\"https://lollipop.finance\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image\",\"content\":\"https://lollipop.finance/meta_image.png\"}],[\"$\",\"meta\",\"8\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:title\",\"content\":\"Lollipop Finance\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:description\",\"content\":\"Simplifying and sweetening your crypto journey! Lollipop is cultivating a community, demystifying DeFi and delivering delight.\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:image\",\"content\":\"https://lollipop.finance/meta_image.png\"}],[\"$\",\"link\",\"12\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}],[\"$\",\"meta\",\"13\",{\"name\":\"next-size-adjust\"}]]\n7:null\n"])</script>
+  <next-route-announcer style="position: absolute;"></next-route-announcer>
+</body>
+
+</html>
